@@ -32,6 +32,8 @@ public class BinaryTreeMain {
         BTree<Integer> btree = new BTree<>();
         btree.root = node;
 
-        btree.postorderR(btree.root);
+        //btree.postorderR(btree.root);
+
+        btree.maxDepth();
     }
 }
